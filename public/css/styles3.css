@@ -1,0 +1,102 @@
+#top-nav {
+    display: inline-flex;
+    background-color: white;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: none;
+}
+.navbar {
+    float: right;
+    padding-left: 500px;
+    padding-top: 0px;
+
+}
+.brand {
+    float: left;
+    display: inline;
+}
+.navbar li {
+    display: inline;
+    padding: 5px;
+
+}
+.brandname {
+    padding-left: 10px ;
+    text-align: right;
+    background-color: none;
+    display: flex;
+    color: #FF6D4E;
+    position: fixed;
+    font-family: 'Inter';
+}
+.rightside-ads {
+    float: right;
+    padding-right:0;    
+    width: 15%;
+    height: 500%;
+    background-color: white;
+    position: absolute !important;
+    z-index: 1;
+    overflow: auto;
+    border-left: groove;
+    right: 0;
+}
+.leftside {
+    padding-left:0;    
+    width: 20%;
+    height: 300%;
+    background-color: none;
+    position: fixed !important;
+    z-index: 1;
+    overflow: auto;
+    border-right: groove;
+}
+.leftside ul{
+    padding: 0;
+}
+.leftside li  {
+    padding: 10%;
+    list-style-type: none;
+    color: black;
+}
+.leftside a {
+    text-decoration: none;
+    color: grey;
+}
+.leftside li:hover {
+    background-color: black;
+    color: white;
+    border-right: 10px;
+    border-radius: 10px;
+}
+.leftside a:hover {
+    color: inherit;
+}
+.leftside i:hover {
+    color: inherit;
+}
+.body {
+    margin-left: 21%;
+    margin-right: 15%;
+    background-color: none;
+}
+.body-content {
+    content: "";
+    display: table;
+    clear: both;
+}
+.icons {
+
+    padding-top: 20%;
+}
+    
+
+
+.list-items i {
+    padding-right: 15px;
+}
+.logo {
+    padding-bottom: 10px;
+    height: 35px;
+
+}
