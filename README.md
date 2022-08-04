@@ -1,2 +1,2 @@
-# Jogs
-Jog startup
+# Joggle
+Joggle startup
