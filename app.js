@@ -1,7 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-
 const app = express();
+const https = require("https");
 app.set("view engine", "ejs");
 app.use(express.static('public'));
 
@@ -13,12 +13,9 @@ app.get("/", function(req, res){
 
 app.get("/add-account", function(req, res){
   res.render("add-account");
+  console.log(req.body.postitem);
+
 })
-
-
-
-
-
 
 
 
